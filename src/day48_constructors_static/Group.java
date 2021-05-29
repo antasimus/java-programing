@@ -6,7 +6,10 @@ import java.util.List;
 public class Group {
     private String name;
     private List<String> members = new ArrayList<>();
-
+// constructor that accept a name
+    public Group(String name){
+        this.name = name;
+    }
     public void addMember(String newMember){
         members.add(newMember);
     }
