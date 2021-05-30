@@ -13,6 +13,9 @@ public class Group {
     public void addMember(String newMember){
         members.add(newMember);
     }
+    public void removeMember(String memberName) {
+        members.remove(memberName);
+    }
 
 
     public String getName() {
