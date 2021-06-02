@@ -6,5 +6,6 @@ public class StaticVariablesTest {
         System.out.println(StaticVariables.userName);
         System.out.println(StaticVariables.age);
         System.out.println(StaticVariables.price);
+        System.out.println(Locators.password);
     }
 }
