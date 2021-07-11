@@ -7,9 +7,12 @@ public abstract class AbstractA {
     public final String TYPE = "abstract";
     public static final String LANGUAGE = "java";
 
+    public AbstractA() {
+        System.out.println("AbstractA constructor");
+    }
     public abstract void absMethodA();
     public void methodB(){
-        System.out.println("methodB called");
+        System.out.println("methodB is called");
     }
     public static void  staticMethodC(){
         System.out.println("static methodC called");
